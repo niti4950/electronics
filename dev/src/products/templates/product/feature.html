@@ -1,0 +1,8 @@
+{% for q in object_list %}
+ {{q.title}}
+<br/>
+    {{q.description}}
+<br/>
+	<img src="{{q.image.url}}" class="img-fluid" />
+{{q.price}}
+{% endfor %}
